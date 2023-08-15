@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Captioning Result</title>
+
+</head>
+<body>
+    <h1>Image Captioning Result</h1>
+    <img src="{{ result.image_path }}" alt="Uploaded image" width="224" height="224">
+    <p><strong>Caption:</strong> {{ result.caption }}</p>
+    <a href="/">Try Another Image</a>
+</body>
+</html>
